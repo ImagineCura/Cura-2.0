@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943F43D71E5305AA00CE2225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F43D61E5305AA00CE2225 /* AppDelegate.swift */; };
+		943F43D91E5305AA00CE2225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F43D81E5305AA00CE2225 /* ViewController.swift */; };
+		943F43DC1E5305AA00CE2225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943F43DA1E5305AA00CE2225 /* Main.storyboard */; };
+		943F43DE1E5305AA00CE2225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F43DD1E5305AA00CE2225 /* Assets.xcassets */; };
+		943F43E11E5305AA00CE2225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943F43DF1E5305AA00CE2225 /* LaunchScreen.storyboard */; };
+		943F43EC1E5305AA00CE2225 /* Cura_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F43EB1E5305AA00CE2225 /* Cura_2_0Tests.swift */; };
+		943F43F71E5305AA00CE2225 /* Cura_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F43F61E5305AA00CE2225 /* Cura_2_0UITests.swift */; };
+		943F43FC1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 943F43FB1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app */; };
+		943F44021E5305AA00CE2225 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943F44001E5305AA00CE2225 /* Interface.storyboard */; };
+		943F44041E5305AA00CE2225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F44031E5305AA00CE2225 /* Assets.xcassets */; };
+		943F440B1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		943F44121E5305AA00CE2225 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44111E5305AA00CE2225 /* InterfaceController.swift */; };
+		943F44141E5305AA00CE2225 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44131E5305AA00CE2225 /* ExtensionDelegate.swift */; };
+		943F44161E5305AA00CE2225 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44151E5305AA00CE2225 /* NotificationController.swift */; };
+		943F44181E5305AA00CE2225 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44171E5305AA00CE2225 /* ComplicationController.swift */; };
+		943F441A1E5305AA00CE2225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F44191E5305AA00CE2225 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943F43E81E5305AA00CE2225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943F43CB1E5305AA00CE2225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943F43D21E5305AA00CE2225;
+			remoteInfo = "Cura 2.0";
+		};
+		943F43F31E5305AA00CE2225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943F43CB1E5305AA00CE2225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943F43D21E5305AA00CE2225;
+			remoteInfo = "Cura 2.0";
+		};
+		943F43FD1E5305AA00CE2225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943F43CB1E5305AA00CE2225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943F43FA1E5305AA00CE2225;
+			remoteInfo = "Cura 2.0 WatchKit App";
+		};
+		943F440C1E5305AA00CE2225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943F43CB1E5305AA00CE2225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943F44091E5305AA00CE2225;
+			remoteInfo = "Cura 2.0 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		943F44211E5305AA00CE2225 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				943F440B1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F44251E5305AA00CE2225 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				943F43FC1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		943F43D31E5305AA00CE2225 /* Cura 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cura 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943F43D61E5305AA00CE2225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		943F43D81E5305AA00CE2225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943F43DB1E5305AA00CE2225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943F43DD1E5305AA00CE2225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943F43E01E5305AA00CE2225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943F43E21E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943F43E71E5305AA00CE2225 /* Cura 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cura 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943F43EB1E5305AA00CE2225 /* Cura_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cura_2_0Tests.swift; sourceTree = "<group>"; };
+		943F43ED1E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943F43F21E5305AA00CE2225 /* Cura 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cura 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943F43F61E5305AA00CE2225 /* Cura_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cura_2_0UITests.swift; sourceTree = "<group>"; };
+		943F43F81E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943F43FB1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cura 2.0 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943F44011E5305AA00CE2225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		943F44031E5305AA00CE2225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943F44051E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cura 2.0 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943F44101E5305AA00CE2225 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		943F44111E5305AA00CE2225 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		943F44131E5305AA00CE2225 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		943F44151E5305AA00CE2225 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		943F44171E5305AA00CE2225 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		943F44191E5305AA00CE2225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943F441B1E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943F43D01E5305AA00CE2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43E41E5305AA00CE2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43EF1E5305AA00CE2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F44071E5305AA00CE2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943F43CA1E5305AA00CE2225 = {
+			isa = PBXGroup;
+			children = (
+				943F43D51E5305AA00CE2225 /* Cura 2.0 */,
+				943F43EA1E5305AA00CE2225 /* Cura 2.0Tests */,
+				943F43F51E5305AA00CE2225 /* Cura 2.0UITests */,
+				943F43FF1E5305AA00CE2225 /* Cura 2.0 WatchKit App */,
+				943F440E1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */,
+				943F43D41E5305AA00CE2225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943F43D41E5305AA00CE2225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943F43D31E5305AA00CE2225 /* Cura 2.0.app */,
+				943F43E71E5305AA00CE2225 /* Cura 2.0Tests.xctest */,
+				943F43F21E5305AA00CE2225 /* Cura 2.0UITests.xctest */,
+				943F43FB1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app */,
+				943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943F43D51E5305AA00CE2225 /* Cura 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				943F43D61E5305AA00CE2225 /* AppDelegate.swift */,
+				943F43D81E5305AA00CE2225 /* ViewController.swift */,
+				943F43DA1E5305AA00CE2225 /* Main.storyboard */,
+				943F43DD1E5305AA00CE2225 /* Assets.xcassets */,
+				943F43DF1E5305AA00CE2225 /* LaunchScreen.storyboard */,
+				943F43E21E5305AA00CE2225 /* Info.plist */,
+			);
+			path = "Cura 2.0";
+			sourceTree = "<group>";
+		};
+		943F43EA1E5305AA00CE2225 /* Cura 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				943F43EB1E5305AA00CE2225 /* Cura_2_0Tests.swift */,
+				943F43ED1E5305AA00CE2225 /* Info.plist */,
+			);
+			path = "Cura 2.0Tests";
+			sourceTree = "<group>";
+		};
+		943F43F51E5305AA00CE2225 /* Cura 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				943F43F61E5305AA00CE2225 /* Cura_2_0UITests.swift */,
+				943F43F81E5305AA00CE2225 /* Info.plist */,
+			);
+			path = "Cura 2.0UITests";
+			sourceTree = "<group>";
+		};
+		943F43FF1E5305AA00CE2225 /* Cura 2.0 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				943F44001E5305AA00CE2225 /* Interface.storyboard */,
+				943F44031E5305AA00CE2225 /* Assets.xcassets */,
+				943F44051E5305AA00CE2225 /* Info.plist */,
+			);
+			path = "Cura 2.0 WatchKit App";
+			sourceTree = "<group>";
+		};
+		943F440E1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				943F44111E5305AA00CE2225 /* InterfaceController.swift */,
+				943F44131E5305AA00CE2225 /* ExtensionDelegate.swift */,
+				943F44151E5305AA00CE2225 /* NotificationController.swift */,
+				943F44171E5305AA00CE2225 /* ComplicationController.swift */,
+				943F44191E5305AA00CE2225 /* Assets.xcassets */,
+				943F441B1E5305AA00CE2225 /* Info.plist */,
+				943F440F1E5305AA00CE2225 /* Supporting Files */,
+			);
+			path = "Cura 2.0 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		943F440F1E5305AA00CE2225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				943F44101E5305AA00CE2225 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943F43D21E5305AA00CE2225 /* Cura 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F44261E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0" */;
+			buildPhases = (
+				943F43CF1E5305AA00CE2225 /* Sources */,
+				943F43D01E5305AA00CE2225 /* Frameworks */,
+				943F43D11E5305AA00CE2225 /* Resources */,
+				943F44251E5305AA00CE2225 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943F43FE1E5305AA00CE2225 /* PBXTargetDependency */,
+			);
+			name = "Cura 2.0";
+			productName = "Cura 2.0";
+			productReference = 943F43D31E5305AA00CE2225 /* Cura 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943F43E61E5305AA00CE2225 /* Cura 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F44291E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0Tests" */;
+			buildPhases = (
+				943F43E31E5305AA00CE2225 /* Sources */,
+				943F43E41E5305AA00CE2225 /* Frameworks */,
+				943F43E51E5305AA00CE2225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943F43E91E5305AA00CE2225 /* PBXTargetDependency */,
+			);
+			name = "Cura 2.0Tests";
+			productName = "Cura 2.0Tests";
+			productReference = 943F43E71E5305AA00CE2225 /* Cura 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943F43F11E5305AA00CE2225 /* Cura 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F442C1E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0UITests" */;
+			buildPhases = (
+				943F43EE1E5305AA00CE2225 /* Sources */,
+				943F43EF1E5305AA00CE2225 /* Frameworks */,
+				943F43F01E5305AA00CE2225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943F43F41E5305AA00CE2225 /* PBXTargetDependency */,
+			);
+			name = "Cura 2.0UITests";
+			productName = "Cura 2.0UITests";
+			productReference = 943F43F21E5305AA00CE2225 /* Cura 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		943F43FA1E5305AA00CE2225 /* Cura 2.0 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F44221E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0 WatchKit App" */;
+			buildPhases = (
+				943F43F91E5305AA00CE2225 /* Resources */,
+				943F44211E5305AA00CE2225 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943F440D1E5305AA00CE2225 /* PBXTargetDependency */,
+			);
+			name = "Cura 2.0 WatchKit App";
+			productName = "Cura 2.0 WatchKit App";
+			productReference = 943F43FB1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		943F44091E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F441E1E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0 WatchKit Extension" */;
+			buildPhases = (
+				943F44061E5305AA00CE2225 /* Sources */,
+				943F44071E5305AA00CE2225 /* Frameworks */,
+				943F44081E5305AA00CE2225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cura 2.0 WatchKit Extension";
+			productName = "Cura 2.0 WatchKit Extension";
+			productReference = 943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943F43CB1E5305AA00CE2225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Caregiver;
+				TargetAttributes = {
+					943F43D21E5305AA00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+					};
+					943F43E61E5305AA00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943F43D21E5305AA00CE2225;
+					};
+					943F43F11E5305AA00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 943F43D21E5305AA00CE2225;
+					};
+					943F43FA1E5305AA00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+					};
+					943F44091E5305AA00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 943F43CE1E5305AA00CE2225 /* Build configuration list for PBXProject "Cura 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943F43CA1E5305AA00CE2225;
+			productRefGroup = 943F43D41E5305AA00CE2225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943F43D21E5305AA00CE2225 /* Cura 2.0 */,
+				943F43E61E5305AA00CE2225 /* Cura 2.0Tests */,
+				943F43F11E5305AA00CE2225 /* Cura 2.0UITests */,
+				943F43FA1E5305AA00CE2225 /* Cura 2.0 WatchKit App */,
+				943F44091E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943F43D11E5305AA00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F43E11E5305AA00CE2225 /* LaunchScreen.storyboard in Resources */,
+				943F43DE1E5305AA00CE2225 /* Assets.xcassets in Resources */,
+				943F43DC1E5305AA00CE2225 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43E51E5305AA00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43F01E5305AA00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43F91E5305AA00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F44041E5305AA00CE2225 /* Assets.xcassets in Resources */,
+				943F44021E5305AA00CE2225 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F44081E5305AA00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F441A1E5305AA00CE2225 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943F43CF1E5305AA00CE2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F43D91E5305AA00CE2225 /* ViewController.swift in Sources */,
+				943F43D71E5305AA00CE2225 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43E31E5305AA00CE2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F43EC1E5305AA00CE2225 /* Cura_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F43EE1E5305AA00CE2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F43F71E5305AA00CE2225 /* Cura_2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F44061E5305AA00CE2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F44161E5305AA00CE2225 /* NotificationController.swift in Sources */,
+				943F44181E5305AA00CE2225 /* ComplicationController.swift in Sources */,
+				943F44141E5305AA00CE2225 /* ExtensionDelegate.swift in Sources */,
+				943F44121E5305AA00CE2225 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943F43E91E5305AA00CE2225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943F43D21E5305AA00CE2225 /* Cura 2.0 */;
+			targetProxy = 943F43E81E5305AA00CE2225 /* PBXContainerItemProxy */;
+		};
+		943F43F41E5305AA00CE2225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943F43D21E5305AA00CE2225 /* Cura 2.0 */;
+			targetProxy = 943F43F31E5305AA00CE2225 /* PBXContainerItemProxy */;
+		};
+		943F43FE1E5305AA00CE2225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943F43FA1E5305AA00CE2225 /* Cura 2.0 WatchKit App */;
+			targetProxy = 943F43FD1E5305AA00CE2225 /* PBXContainerItemProxy */;
+		};
+		943F440D1E5305AA00CE2225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943F44091E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */;
+			targetProxy = 943F440C1E5305AA00CE2225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943F43DA1E5305AA00CE2225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943F43DB1E5305AA00CE2225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943F43DF1E5305AA00CE2225 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943F43E01E5305AA00CE2225 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		943F44001E5305AA00CE2225 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943F44011E5305AA00CE2225 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943F441C1E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943F441D1E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943F441F1E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		943F44201E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		943F44231E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				IBSC_MODULE = Cura_2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Cura 2.0 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		943F44241E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				IBSC_MODULE = Cura_2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Cura 2.0 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		943F44271E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		943F44281E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		943F442A1E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cura 2.0.app/Cura 2.0";
+			};
+			name = Debug;
+		};
+		943F442B1E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cura 2.0.app/Cura 2.0";
+			};
+			name = Release;
+		};
+		943F442D1E5305AA00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cura 2.0";
+			};
+			name = Debug;
+		};
+		943F442E1E5305AA00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = "Cura 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cura 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943F43CE1E5305AA00CE2225 /* Build configuration list for PBXProject "Cura 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F441C1E5305AA00CE2225 /* Debug */,
+				943F441D1E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943F441E1E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F441F1E5305AA00CE2225 /* Debug */,
+				943F44201E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943F44221E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F44231E5305AA00CE2225 /* Debug */,
+				943F44241E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943F44261E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F44271E5305AA00CE2225 /* Debug */,
+				943F44281E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943F44291E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F442A1E5305AA00CE2225 /* Debug */,
+				943F442B1E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943F442C1E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F442D1E5305AA00CE2225 /* Debug */,
+				943F442E1E5305AA00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943F43CB1E5305AA00CE2225 /* Project object */;
+}
