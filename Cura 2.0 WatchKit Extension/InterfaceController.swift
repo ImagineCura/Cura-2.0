@@ -12,10 +12,13 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var Schedule: WKInterfaceButton!
+    @IBOutlet var Identify: WKInterfaceButton!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        
         // Configure interface objects here.
+        
     }
     
     override func willActivate() {
@@ -28,4 +31,14 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func OpenSchedule() {
+        //Code for Opening and showing the schedule on the button
+        
+    }
+    
+    @IBAction func IdentifyFamily() {
+        //Code for identifying or finding images for people from the photo roll
+        
+    }
+    
 }

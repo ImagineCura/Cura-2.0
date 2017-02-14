@@ -23,6 +23,7 @@
 		943F44161E5305AA00CE2225 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44151E5305AA00CE2225 /* NotificationController.swift */; };
 		943F44181E5305AA00CE2225 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F44171E5305AA00CE2225 /* ComplicationController.swift */; };
 		943F441A1E5305AA00CE2225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F44191E5305AA00CE2225 /* Assets.xcassets */; };
+		943F44401E53078A00CE2225 /* SiriCura.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 943F44331E53078A00CE2225 /* SiriCura.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,13 @@
 			remoteGlobalIDString = 943F44091E5305AA00CE2225;
 			remoteInfo = "Cura 2.0 WatchKit Extension";
 		};
+		943F443E1E53078A00CE2225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943F43CB1E5305AA00CE2225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943F44321E53078A00CE2225;
+			remoteInfo = SiriCura;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +85,17 @@
 				943F43FC1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943F44441E53078A00CE2225 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				943F44401E53078A00CE2225 /* SiriCura.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -107,6 +126,7 @@
 		943F44171E5305AA00CE2225 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		943F44191E5305AA00CE2225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943F441B1E5305AA00CE2225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943F44331E53078A00CE2225 /* SiriCura.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriCura.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +158,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		943F44301E53078A00CE2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -161,6 +188,7 @@
 				943F43F21E5305AA00CE2225 /* Cura 2.0UITests.xctest */,
 				943F43FB1E5305AA00CE2225 /* Cura 2.0 WatchKit App.app */,
 				943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */,
+				943F44331E53078A00CE2225 /* SiriCura.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,11 +267,13 @@
 				943F43D01E5305AA00CE2225 /* Frameworks */,
 				943F43D11E5305AA00CE2225 /* Resources */,
 				943F44251E5305AA00CE2225 /* Embed Watch Content */,
+				943F44441E53078A00CE2225 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				943F43FE1E5305AA00CE2225 /* PBXTargetDependency */,
+				943F443F1E53078A00CE2225 /* PBXTargetDependency */,
 			);
 			name = "Cura 2.0";
 			productName = "Cura 2.0";
@@ -320,6 +350,23 @@
 			productReference = 943F440A1E5305AA00CE2225 /* Cura 2.0 WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		943F44321E53078A00CE2225 /* SiriCura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943F44411E53078A00CE2225 /* Build configuration list for PBXNativeTarget "SiriCura" */;
+			buildPhases = (
+				943F442F1E53078A00CE2225 /* Sources */,
+				943F44301E53078A00CE2225 /* Frameworks */,
+				943F44311E53078A00CE2225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriCura;
+			productName = SiriCura;
+			productReference = 943F44331E53078A00CE2225 /* SiriCura.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +404,11 @@
 						DevelopmentTeam = 6Y38U7TZQ8;
 						ProvisioningStyle = Automatic;
 					};
+					943F44321E53078A00CE2225 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Y38U7TZQ8;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 943F43CE1E5305AA00CE2225 /* Build configuration list for PBXProject "Cura 2.0" */;
@@ -377,6 +429,7 @@
 				943F43F11E5305AA00CE2225 /* Cura 2.0UITests */,
 				943F43FA1E5305AA00CE2225 /* Cura 2.0 WatchKit App */,
 				943F44091E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */,
+				943F44321E53078A00CE2225 /* SiriCura */,
 			);
 		};
 /* End PBXProject section */
@@ -423,6 +476,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		943F44311E53078A00CE2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -462,6 +522,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		943F442F1E53078A00CE2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -484,6 +551,11 @@
 			isa = PBXTargetDependency;
 			target = 943F44091E5305AA00CE2225 /* Cura 2.0 WatchKit Extension */;
 			targetProxy = 943F440C1E5305AA00CE2225 /* PBXContainerItemProxy */;
+		};
+		943F443F1E53078A00CE2225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943F44321E53078A00CE2225 /* SiriCura */;
+			targetProxy = 943F443E1E53078A00CE2225 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -762,6 +834,32 @@
 			};
 			name = Release;
 		};
+		943F44421E53078A00CE2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = SiriCura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.SiriCura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		943F44431E53078A00CE2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6Y38U7TZQ8;
+				INFOPLIST_FILE = SiriCura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caregiver.Cura-2-0.SiriCura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,6 +879,7 @@
 				943F44201E5305AA00CE2225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943F44221E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +888,7 @@
 				943F44241E5305AA00CE2225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943F44261E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0" */ = {
 			isa = XCConfigurationList;
@@ -797,6 +897,7 @@
 				943F44281E5305AA00CE2225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943F44291E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -805,6 +906,7 @@
 				943F442B1E5305AA00CE2225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943F442C1E5305AA00CE2225 /* Build configuration list for PBXNativeTarget "Cura 2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -813,6 +915,16 @@
 				943F442E1E5305AA00CE2225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943F44411E53078A00CE2225 /* Build configuration list for PBXNativeTarget "SiriCura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943F44421E53078A00CE2225 /* Debug */,
+				943F44431E53078A00CE2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
